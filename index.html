@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Mobile Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Find the Best Smartphones Here!</h2>
+    </section>
+
+    <section class="products">
+        <div class="product" onclick="showDetails('iPhone 14', '$999')">
+            <img src="https://via.placeholder.com/150" alt="iPhone 14">
+            <h3>iPhone 14</h3>
+            <p>$999</p>
+        </div>
+        <div class="product" onclick="showDetails('Samsung Galaxy S23', '$899')">
+            <img src="https://via.placeholder.com/150" alt="Samsung Galaxy S23">
+            <h3>Samsung Galaxy S23</h3>
+            <p>$899</p>
+        </div>
+        <div class="product" onclick="showDetails('Google Pixel 7', '$799')">
+            <img src="https://via.placeholder.com/150" alt="Google Pixel 7">
+            <h3>Google Pixel 7</h3>
+            <p>$799</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
